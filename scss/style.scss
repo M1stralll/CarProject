@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap');
+
+*p{
+    font-family: 'Lato', sans-serif;
+ }
+
+*h1{
+    font-family: 'Lato', sans-serif;
+ }
+
+*a{
+    color: inherit;
+    text-decoration: none;
+ }
+ 
+@mixin ContainerCategorize(){
+    background-color: #ffffff;
+    width: 306px;
+    height: 197px;
+    border-radius: 1vw;
+    .CategorizeImg{
+        width: 19vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: 1.2vw;
+        
+    }
+    .Categorize__Car{
+        color: #959595;
+        margin-top: 0.8vw;
+        margin-left: 1.2vw;
+        font-size: 1.5vw;
+    }
+    .Categorize__Price{
+        color: #000000;
+        margin-left: 1.2vw;
+        font-size: 1.5vw;
+    }
+    
+}
+
+@mixin ContainerHover(){
+    border: 0.1vw solid rgb(255, 213, 0);
+    box-sizing: border-box;
+}
+
+@mixin ContainerPlace{
+    width: 90vw;
+    margin: auto;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@mixin Arrow{
+    margin-top: 1vw;
+    width: 0.75vw;
+    height: 0.75vw;
+    border-top: 0.3vw solid #000;
+    border-right: 0.3vw solid #000;
+}
+@mixin BrandCar{
+    background-color: #ffffff;
+    border-radius: 1vw;
+    display: flex;
+    &:hover {
+        @include ContainerHover();
+      }
+    .PopularBrand__Text{
+        color: #000;
+        display: flex;
+        align-items: center;
+    }
+}
+body{
+    background-color: #f5f4f4;
+}
+*p{
+    color: #ffffff;
+}
+
+*h3 {
+    color: #cfb611;
+    font-size: 6vw;
+}
+
+* {
+    padding: 0vw;
+    margin: 0vw;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 1) 5%,  
+    rgba(0, 0, 0, 0.2) 150% );
+    position: fixed;
+    width: 100vw;
+    height: 7vw;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    z-index: 100000;
+}
+
+.TitleBlock__up{
+    margin: 1vw; 
+}
+
+.TitleBlock__down {
+  margin: 1vw;
+}
+
+.hr {
+    list-style: none; 
+    display: flex; 
+    align-items:center;
+  }
+
+.hr li {
+    margin-right: 3vw;
+  }
+
+.WelcomMenu img{
+    height: 56.9vw;
+    width: 100vw;
+}
+
+.WelcomMenu{
+position: relative;
+display: flex;
+align-items: center;
+z-index: -1;
+}
+
+.WelcomMenuWord{
+    margin-left: -98vw; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.CatrgorizeTitle{
+    margin-top: 3vw;
+    margin-left: 5.5vw;
+}
+
+.Container__Econom{
+   @include ContainerCategorize();
+
+    &:hover {
+    @include ContainerHover();
+  }
+}
+
+.Container__Srednii{
+    @include ContainerCategorize();
+
+    &:hover {
+    @include ContainerHover();
+  }
+}
+  
+.Container__Komfort{
+    @include ContainerCategorize();
+
+    &:hover {
+    @include ContainerHover();
+  }
+}
+
+.Container__Business{
+    @include ContainerCategorize();
+
+    &:hover {
+
+    @include ContainerHover();
+
+  }
+}
+
+.Categorize__ContainerFirstLine{
+   @include ContainerPlace();
+}
+
+.Container__Premium{
+    @include ContainerCategorize();
+
+    &:hover{
+        @include ContainerHover();
+    }
+}
+
+.Container__Kabriolet{
+    @include ContainerCategorize();
+
+    &:hover{
+        @include ContainerHover();
+    }
+}
+
+.Container__Dzhipy{
+    @include ContainerCategorize();
+
+    &:hover{
+        @include ContainerHover();
+    }
+}
+
+.Container__Mikroavtobus{
+    @include ContainerCategorize();
+
+    &:hover{
+        @include ContainerHover();
+    }
+}
+
+.Categorize__ContainerSecondLine{
+ @include ContainerPlace();
+}
+.Container__Avtodom{
+    @include ContainerCategorize();
+
+    &:hover{
+        @include ContainerHover();
+    }
+}
+
+.Container__Miniven{
+    @include ContainerCategorize();
+
+    &:hover{
+        @include ContainerHover();
+    }
+}
+
+.Container__Elektro{
+    @include ContainerCategorize();
+
+    &:hover{
+
+        @include ContainerHover();
+    }
+}
+
+.Container__Gruzovye{
+    @include ContainerCategorize();
+
+    &:hover{
+        @include ContainerHover();
+    }
+}
+
+.Categorize__ContainerThirdLine{
+ @include ContainerPlace();
+}
+
+.PopularBrandCarTitle{
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 55.3vw;
+    
+    
+}
+
+.Right{
+    @include Arrow();
+    transform: rotate(45deg);
+}
+
+.Left{
+    @include Arrow();
+    transform: rotate(225deg);
+}
+.PopularBrandCar__Arrows{
+    display: flex;
+    justify-content: center;  
+}
+
+.PopularBrandCar{
+    //width: 1359px;
+    width: 88.7vw;
+    overflow: hidden;
+    margin-left: 5.6vw;
+    margin-right: 5.5vw;
+}
+
+.PopularBrandCar__Container{
+    margin-top: 2vw;
+    display: flex;
+    position:relative;
+    gap: 2vw;
+    left: 0;
+    transition: all ease 0.5s;
+}
+
+.Container__BMW{
+    width: 116px;
+    height: 50px;
+    @include BrandCar(); 
+}
+
+.Container__Mercedes-benz{
+    width: 192px;
+    height: 50px;
+    @include BrandCar(); 
+}
+
+.Container__Audi{
+    width: 109px;
+    height: 50px;
+    @include BrandCar();
+}
+
+.Container__Porsche{
+    width: 136px;
+    height: 50px;
+    @include BrandCar();
+}
+
+.Container__Ford{
+    width: 110px;
+    height: 50px;
+    @include BrandCar();
+}
+
+.Container__Skoda{
+    width: 122px;
+    height: 50px;
+    @include BrandCar();
+}
+
+.Container__Volkswagen{
+    width: 163px;
+    height: 50px;
+    @include BrandCar();
+}
+
+.Container__Toyota{
+    width: 125px;
+    height: 50px;
+    @include BrandCar();
+}
+
+.Container__Tesla{
+    width: 114px;
+    height: 50px;
+    @include BrandCar();
+}
+
+.Container__Renault{
+    width: 131px;
+    height: 50px;
+    @include BrandCar();
+}
+
+.Recommendations__Title{
+    margin-top: 5vw;
+    margin-left: 5vw;
+}
+
+.BlockAuto__BackgroundFirsAuto{
+    height: 37vw;
+    width: 89vw;
+    background-color: #000;
+    border-radius: 1vw;
+    margin: auto;
+    margin-top: 3vw;
+
+    
+}
+
+.BlockAuto__BackgroundBMW{
+    height: 37vw;
+    width: 44.5vw;
+    border-radius: 1vw;
+    background-color: #2b2b2b;
+}
+
+.BackgroundBMW_Car{
+    height: 37vw;
+    width: 59vw;
+    margin-left: 30vw;
+    border-top-right-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    background-color: #f5f4f4;
+}
+
+.BackgroundBMW_Car img{
+    height: 37vw;
+    width: 59vw;
+    border-top-right-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+
+.Text__Discound{
+    width: 18vw;
+    height: 1.7vw;
+    background-color: #f9df31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3vw;
+    margin-left: 2vw;
+    margin-top: -30vw;
+    & p{
+    font-size: 1.2vw;
+    color: #000;
+    }
+}
+
+.Text__NameCar{
+    margin-top: 2vw;
+    margin-left: 2vw;
+    font-size: 2.4vw;
+
+    .TransparentGray{
+        font-size: 1.9vw; 
+        color: #959595;
+
+    }
+}
+
+.Text__CrossPrice{
+    margin-top: 2vw;
+    margin-left: 2vw;
+    font-size: 1.4vw;
+    text-decoration: line-through;
+    color: white;
+}
+
+.Text__Price{
+    margin-top: 2vw;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    & p{
+        font-size: 3vw;
+        color: #ffea5f;
+    }
+    .Price__BYN{
+        margin-left: 0.5vw;
+        margin-top: 1.5vw;
+        font-size: 1.3vw;
+    }
+    .Price__Day{
+        font-size: 1.3vw;
+        margin-top: 1.5vw;
+        color: #ffffff;
+    }
+}
+
+.Text__LinkMoreDetails{
+    margin-top: 5vw;
+    margin-left: 2vw;
+    width: 8vw;
+    height: 2.7vw;
+    background-color: #f9df31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4vw;
+    & p{
+        color: #000;
+    }
+}
+
+.footer {
+    background: #000;
+    width: 100vw;
+    height: 38vw;
+    bottom: 0;
+    margin-top: 25px;
+}
+
+.footer__Information{
+    width: 100;
+    display: flex;
+    align-items: center;
+    gap: 8vw;
+}
+
+.Information__RentCar{
+    margin-top: 7vw;
+    font-size: 1.3vw;
+}
+
+.Information__Help{
+    margin-top: 7vw;
+    font-size: 1.3vw;
+}
+
+.Information__Company{
+    margin-top: 7vw;
+    font-size: 1.3vw;
+}
+
+.Information__Contacts{
+    margin-top: -1.5vw;
+    font-size: 1.3vw;
+}
+
+.Information__Address{
+    margin-top: -2.3vw;
+    font-size: 1.3vw;
+}
+
+.Description{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+}
+
+.Blackout{
+    color:#959595;
+    margin-top: 2vw;
+    font-size: 1vw;
+}
+
+.Description__Contacts{
+    margin-top: 1.8vw;
+}
+
+.Contacts__LitleText{
+    color:#959595;
+    font-size: 0.8vw;
+}
+
+.Contacts__BigText{
+    font-size: 1.4vw;
+}
+
+.Contacts__Photo{
+    display: flex;
+    margin-top: 2vw;
+    gap: 2vw;
+}
+
+.Description__Address{
+    margin-top: 2vw;
+}
+
+.footer__Pay{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+}
+
+.logo img{
+    width: 20vw;
+    height: 8vw;
+}
+
+.Title__ColorYellow{
+    color: #f9df31;
+}
+
+.Title__ColorWhite{
+    color: #ffffff;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/test.css">
+</head>
+<body>
+
+    <button data-toggle="#modalWin" data-easy-class="show"> Test </button>
+
+    
+    <div id="modalWin" class="modal">
+        <div class="modal-window">
+            <div class="header">
+            <div class="Titile">
+                <h2>Быстрое бронирование</h2>
+            </div>
+            <div class="closeModal">
+                
+            </div>
+            </div>
+
+            <div class="date">
+            
+
+
+                <div class="firstdatecontainer">
+                    <p>
+                        Началао аренды
+                    </p>
+
+                    <div class="block">
+                        <input class="Dateclass" type="date" name="Date" id="DataToday">
+                    </input>
+                        <input class="time" type="time" id="timePicker" name="time">
+                    </div>
+
+                </div>
+                <div class="seconddatecontainer">
+                    <p>
+                        Завершение аренды
+                    </p>
+
+                    <div class="block">
+                        <input class="Dateclass" type="date" name="Date" id="DataToday">
+                    </input>
+                        <input class="time" type="time" id="timePicker" name="time">
+                    </div>
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <div class="contact">
+                <div class="blockone">
+                <p>Имя</p>
+             
+                <div class="blockname">
+                    <input class="inputone"></input>
+                </div>
+            </div>
+
+
+                <div class="blocktwo">
+                <p>Телефон</p>
+                <div class="blocknumber">
+                    <input class="inputone"></input>
+                </div>
+
+            </div>
+         </div>
+            <div class="support">
+            <p>
+                Укажите доступные по номеру мессенджеры. 
+                Мы будем стараться в первую очередь связываться по ним
+            </p>
+        </div>
+        
+        <div class="connect">
+
+            <div class="Telegram">
+                <input class="boxcheck" type="checkbox" id="myCheckbox" >
+                Telegram
+            </div>
+            <div class="Whatsapp">
+                <input class="boxcheck" type="checkbox" id="myCheckbox" >
+                Whatsapp
+            </div>
+            <div class="Viber">
+                <input class="boxcheck" type="checkbox" id="myCheckbox" >
+                Viber
+            </div>
+
+        </div>
+
+        <div class="comment">
+            <p>
+                Коменнтарий
+            </p>
+                <textarea class="textarea-field" placeholder="Введите комментарий..."></textarea>
+
+        </div>
+
+        <div class="send">
+            <button class="sendbutton"> Отправить</button>
+        </div>
+
+
+
+
+
+
+        </div>
+    
+        <div class="overlay" data-toggle="#modalWin" data-easy-class="show"></div>
+    </div>
+    
+    <script>
+        
+        function handleToggleClick(event, options) {
+            const target = event.target.closest(`[${options.toggle}]`);
+            if (target) {
+                event.preventDefault();
+                const toggleElement = document.querySelector(target.getAttribute(options.toggle));
+    
+                document.querySelectorAll(`[${options.toggle}]`).forEach((element) => {
+                    if (!element.hasAttribute(options.parallel) && element !== target) {
+                        document.querySelector(element.getAttribute(options.toggle)).classList.remove(element.getAttribute(options.class));
+                        const selfAttribute = element.getAttribute(options.self);
+                        if (selfAttribute) {
+                            element.classList.remove(selfAttribute);
+                        }
+                    }
+                });
+    
+                toggleElement.classList.toggle(target.getAttribute(options.class));
+    
+                const selfAttribute = target.getAttribute(options.self);
+                if (selfAttribute) {
+                    target.classList.toggle(selfAttribute);
+                }
+    
+                options.onToggle(target);
+            }
+        }
+    
+        function closeModalOnClickOutside(event, options) {
+            const modal = document.querySelector(event.currentTarget.getAttribute(options.toggle));
+            if (!modal.contains(event.target)) {
+                modal.classList.remove(options.class);
+                options.onRemove(modal);
+            }
+        }
+    
+        const options = {
+            toggle: "data-toggle",
+            add: "data-easy-add",
+            remove: "data-easy-remove",
+            class: "data-easy-class",
+            rcoe: "data-easy-rcoe",
+            parallel: "data-easy-parallel",
+            self: "data-easy-self",
+            selfRcoe: "data-easy-self-rcoe",
+            onToggle(element) {},
+            onAdd(element) {},
+            onRemove(element) {},
+            onRcoe(element) {},
+        };
+    
+        document.addEventListener("click", (event) => {
+            handleToggleClick(event, options);
+        });
+    
+        document.addEventListener("click", (event) => {
+            closeModalOnClickOutside(event, options);
+        });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,1089 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap");
+* p {
+  font-family: "Lato", sans-serif;
+}
+
+* h1 {
+  font-family: "Lato", sans-serif;
+}
+
+* a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f5f4f4;
+}
+
+* p {
+  color: #ffffff;
+}
+
+* h3 {
+  color: #cfb611;
+  font-size: 6vw;
+}
+
+* {
+  padding: 0vw;
+  margin: 0vw;
+}
+
+header {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, rgb(0, 0, 0)), color-stop(150%, rgba(0, 0, 0, 0.2)));
+  background: linear-gradient(rgb(0, 0, 0) 5%, rgba(0, 0, 0, 0.2) 150%);
+  position: fixed;
+  width: 100vw;
+  height: 7vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  z-index: 100000;
+}
+
+.TitleBlock__up {
+  margin: 1vw;
+}
+
+.TitleBlock__down {
+  margin: 1vw;
+}
+
+.hr {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hr li {
+  margin-right: 3vw;
+}
+
+.WelcomMenu img {
+  height: 56.9vw;
+  width: 100vw;
+}
+
+.WelcomMenu {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: -1;
+}
+
+.WelcomMenuWord {
+  margin-left: -98vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.CatrgorizeTitle {
+  margin-top: 3vw;
+  margin-left: 5.5vw;
+}
+
+.Container__Econom {
+  background-color: #ffffff;
+  width: 306px;
+  height: 197px;
+  border-radius: 1vw;
+}
+.Container__Econom .CategorizeImg {
+  width: 19vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1.2vw;
+}
+.Container__Econom .Categorize__Car {
+  color: #959595;
+  margin-top: 0.8vw;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Econom .Categorize__Price {
+  color: #000000;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Econom:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Container__Srednii {
+  background-color: #ffffff;
+  width: 306px;
+  height: 197px;
+  border-radius: 1vw;
+}
+.Container__Srednii .CategorizeImg {
+  width: 19vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1.2vw;
+}
+.Container__Srednii .Categorize__Car {
+  color: #959595;
+  margin-top: 0.8vw;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Srednii .Categorize__Price {
+  color: #000000;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Srednii:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Container__Komfort {
+  background-color: #ffffff;
+  width: 306px;
+  height: 197px;
+  border-radius: 1vw;
+}
+.Container__Komfort .CategorizeImg {
+  width: 19vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1.2vw;
+}
+.Container__Komfort .Categorize__Car {
+  color: #959595;
+  margin-top: 0.8vw;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Komfort .Categorize__Price {
+  color: #000000;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Komfort:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Container__Business {
+  background-color: #ffffff;
+  width: 306px;
+  height: 197px;
+  border-radius: 1vw;
+}
+.Container__Business .CategorizeImg {
+  width: 19vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1.2vw;
+}
+.Container__Business .Categorize__Car {
+  color: #959595;
+  margin-top: 0.8vw;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Business .Categorize__Price {
+  color: #000000;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Business:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Categorize__ContainerFirstLine {
+  width: 90vw;
+  margin: auto;
+  margin-top: 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container__Premium {
+  background-color: #ffffff;
+  width: 306px;
+  height: 197px;
+  border-radius: 1vw;
+}
+.Container__Premium .CategorizeImg {
+  width: 19vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1.2vw;
+}
+.Container__Premium .Categorize__Car {
+  color: #959595;
+  margin-top: 0.8vw;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Premium .Categorize__Price {
+  color: #000000;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Premium:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Container__Kabriolet {
+  background-color: #ffffff;
+  width: 306px;
+  height: 197px;
+  border-radius: 1vw;
+}
+.Container__Kabriolet .CategorizeImg {
+  width: 19vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1.2vw;
+}
+.Container__Kabriolet .Categorize__Car {
+  color: #959595;
+  margin-top: 0.8vw;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Kabriolet .Categorize__Price {
+  color: #000000;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Kabriolet:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Container__Dzhipy {
+  background-color: #ffffff;
+  width: 306px;
+  height: 197px;
+  border-radius: 1vw;
+}
+.Container__Dzhipy .CategorizeImg {
+  width: 19vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1.2vw;
+}
+.Container__Dzhipy .Categorize__Car {
+  color: #959595;
+  margin-top: 0.8vw;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Dzhipy .Categorize__Price {
+  color: #000000;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Dzhipy:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Container__Mikroavtobus {
+  background-color: #ffffff;
+  width: 306px;
+  height: 197px;
+  border-radius: 1vw;
+}
+.Container__Mikroavtobus .CategorizeImg {
+  width: 19vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1.2vw;
+}
+.Container__Mikroavtobus .Categorize__Car {
+  color: #959595;
+  margin-top: 0.8vw;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Mikroavtobus .Categorize__Price {
+  color: #000000;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Mikroavtobus:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Categorize__ContainerSecondLine {
+  width: 90vw;
+  margin: auto;
+  margin-top: 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container__Avtodom {
+  background-color: #ffffff;
+  width: 306px;
+  height: 197px;
+  border-radius: 1vw;
+}
+.Container__Avtodom .CategorizeImg {
+  width: 19vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1.2vw;
+}
+.Container__Avtodom .Categorize__Car {
+  color: #959595;
+  margin-top: 0.8vw;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Avtodom .Categorize__Price {
+  color: #000000;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Avtodom:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Container__Miniven {
+  background-color: #ffffff;
+  width: 306px;
+  height: 197px;
+  border-radius: 1vw;
+}
+.Container__Miniven .CategorizeImg {
+  width: 19vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1.2vw;
+}
+.Container__Miniven .Categorize__Car {
+  color: #959595;
+  margin-top: 0.8vw;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Miniven .Categorize__Price {
+  color: #000000;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Miniven:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Container__Elektro {
+  background-color: #ffffff;
+  width: 306px;
+  height: 197px;
+  border-radius: 1vw;
+}
+.Container__Elektro .CategorizeImg {
+  width: 19vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1.2vw;
+}
+.Container__Elektro .Categorize__Car {
+  color: #959595;
+  margin-top: 0.8vw;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Elektro .Categorize__Price {
+  color: #000000;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Elektro:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Container__Gruzovye {
+  background-color: #ffffff;
+  width: 306px;
+  height: 197px;
+  border-radius: 1vw;
+}
+.Container__Gruzovye .CategorizeImg {
+  width: 19vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1.2vw;
+}
+.Container__Gruzovye .Categorize__Car {
+  color: #959595;
+  margin-top: 0.8vw;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Gruzovye .Categorize__Price {
+  color: #000000;
+  margin-left: 1.2vw;
+  font-size: 1.5vw;
+}
+.Container__Gruzovye:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Categorize__ContainerThirdLine {
+  width: 90vw;
+  margin: auto;
+  margin-top: 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.PopularBrandCarTitle {
+  margin-top: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 55.3vw;
+}
+
+.Right {
+  margin-top: 1vw;
+  width: 0.75vw;
+  height: 0.75vw;
+  border-top: 0.3vw solid #000;
+  border-right: 0.3vw solid #000;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.Left {
+  margin-top: 1vw;
+  width: 0.75vw;
+  height: 0.75vw;
+  border-top: 0.3vw solid #000;
+  border-right: 0.3vw solid #000;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+}
+
+.PopularBrandCar__Arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.PopularBrandCar {
+  width: 88.7vw;
+  overflow: hidden;
+  margin-left: 5.6vw;
+  margin-right: 5.5vw;
+}
+
+.PopularBrandCar__Container {
+  margin-top: 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  gap: 2vw;
+  left: 0;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.Container__BMW {
+  width: 116px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Container__BMW:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Container__BMW .PopularBrand__Text {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container__Mercedes-benz {
+  width: 192px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Container__Mercedes-benz:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Container__Mercedes-benz .PopularBrand__Text {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container__Audi {
+  width: 109px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Container__Audi:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Container__Audi .PopularBrand__Text {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container__Porsche {
+  width: 136px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Container__Porsche:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Container__Porsche .PopularBrand__Text {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container__Ford {
+  width: 110px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Container__Ford:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Container__Ford .PopularBrand__Text {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container__Skoda {
+  width: 122px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Container__Skoda:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Container__Skoda .PopularBrand__Text {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container__Volkswagen {
+  width: 163px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Container__Volkswagen:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Container__Volkswagen .PopularBrand__Text {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container__Toyota {
+  width: 125px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Container__Toyota:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Container__Toyota .PopularBrand__Text {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container__Tesla {
+  width: 114px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Container__Tesla:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Container__Tesla .PopularBrand__Text {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container__Renault {
+  width: 131px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Container__Renault:hover {
+  border: 0.1vw solid rgb(255, 213, 0);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Container__Renault .PopularBrand__Text {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Recommendations__Title {
+  margin-top: 5vw;
+  margin-left: 5vw;
+}
+
+.BlockAuto__BackgroundFirsAuto {
+  height: 37vw;
+  width: 89vw;
+  background-color: #000;
+  border-radius: 1vw;
+  margin: auto;
+  margin-top: 3vw;
+}
+
+.BlockAuto__BackgroundBMW {
+  height: 37vw;
+  width: 44.5vw;
+  border-radius: 1vw;
+  background-color: #2b2b2b;
+}
+
+.BackgroundBMW_Car {
+  height: 37vw;
+  width: 59vw;
+  margin-left: 30vw;
+  border-top-right-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+  background-color: #f5f4f4;
+}
+
+.BackgroundBMW_Car img {
+  height: 37vw;
+  width: 59vw;
+  border-top-right-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+}
+
+.Text__Discound {
+  width: 18vw;
+  height: 1.7vw;
+  background-color: #f9df31;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 3vw;
+  margin-left: 2vw;
+  margin-top: -30vw;
+}
+.Text__Discound p {
+  font-size: 1.2vw;
+  color: #000;
+}
+
+.Text__NameCar {
+  margin-top: 2vw;
+  margin-left: 2vw;
+  font-size: 2.4vw;
+}
+.Text__NameCar .TransparentGray {
+  font-size: 1.9vw;
+  color: #959595;
+}
+
+.Text__CrossPrice {
+  margin-top: 2vw;
+  margin-left: 2vw;
+  font-size: 1.4vw;
+  text-decoration: line-through;
+  color: white;
+}
+
+.Text__Price {
+  margin-top: 2vw;
+  margin-left: 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.Text__Price p {
+  font-size: 3vw;
+  color: #ffea5f;
+}
+.Text__Price .Price__BYN {
+  margin-left: 0.5vw;
+  margin-top: 1.5vw;
+  font-size: 1.3vw;
+}
+.Text__Price .Price__Day {
+  font-size: 1.3vw;
+  margin-top: 1.5vw;
+  color: #ffffff;
+}
+
+.Text__LinkMoreDetails {
+  margin-top: 5vw;
+  margin-left: 2vw;
+  width: 8vw;
+  height: 2.7vw;
+  background-color: #f9df31;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0.4vw;
+}
+.Text__LinkMoreDetails p {
+  color: #000;
+}
+
+.footer {
+  background: #000;
+  width: 100vw;
+  height: 38vw;
+  bottom: 0;
+  margin-top: 25px;
+}
+
+.footer__Information {
+  width: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8vw;
+}
+
+.Information__RentCar {
+  margin-top: 7vw;
+  font-size: 1.3vw;
+}
+
+.Information__Help {
+  margin-top: 7vw;
+  font-size: 1.3vw;
+}
+
+.Information__Company {
+  margin-top: 7vw;
+  font-size: 1.3vw;
+}
+
+.Information__Contacts {
+  margin-top: -1.5vw;
+  font-size: 1.3vw;
+}
+
+.Information__Address {
+  margin-top: -2.3vw;
+  font-size: 1.3vw;
+}
+
+.Description {
+  margin-top: 1vw;
+  font-size: 1.5vw;
+}
+
+.Blackout {
+  color: #959595;
+  margin-top: 2vw;
+  font-size: 1vw;
+}
+
+.Description__Contacts {
+  margin-top: 1.8vw;
+}
+
+.Contacts__LitleText {
+  color: #959595;
+  font-size: 0.8vw;
+}
+
+.Contacts__BigText {
+  font-size: 1.4vw;
+}
+
+.Contacts__Photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2vw;
+  gap: 2vw;
+}
+
+.Description__Address {
+  margin-top: 2vw;
+}
+
+.footer__Pay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4vw;
+}
+
+.logo img {
+  width: 20vw;
+  height: 8vw;
+}
+
+.Title__ColorYellow {
+  color: #f9df31;
+}
+
+.Title__ColorWhite {
+  color: #ffffff;
+}

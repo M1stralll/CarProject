@@ -1,0 +1,189 @@
+.modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    z-index: -1;
+    opacity: 0;
+    transition: all .09s ease-out;
+}
+.show{
+    visibility: visible;
+    z-index: 10;
+    opacity: 1;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: 0;
+}
+.modal-window{
+    margin-bottom: 50vw;
+    position: relative;
+    z-index: 2;
+    width: 592px;
+    height: 526px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0,0,0, .4);
+    background-color: #fff;
+    padding: 50px;
+}
+.closeModal {
+	position: absolute;
+    right: 40px;
+    top: 30px;
+	height: 24px;
+	opacity: 0.2;
+	cursor: pointer;
+  transition: opacity ease 0.5s;
+
+	&:hover {
+		opacity: 1;
+	}
+}
+
+.closeModal::before,
+.closeModal::after {
+	content: '';
+	position: absolute;
+	top: 10px;
+	display: block;
+	width: 24px;
+	height: 3px;
+	background: #000;
+}
+
+.closeModal::before {
+	transform: rotate(45deg);
+}
+
+.closeModal::after {
+	transform: rotate(-45deg);
+}
+.Titile{
+    margin-top: -3vw;
+    margin-left: -2vw;
+}
+.block {
+    position: relative;
+    background-color: #f0f0f0;
+    width: 268px;
+    height: 46px;
+    border-radius: 0.5vw;
+}
+
+.block::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 70%;
+    width: 1px;
+    background-color: rgb(199, 199, 199);
+}
+
+.Dateclass {
+    position: relative;
+    background-color: #f0f0f0;
+    width: 185px;
+    height: 44px;
+    border: none;
+    border-radius: 0.5vw;
+}
+
+.Dateclass p {
+    margin: 0;
+    font-size: 1.5vw; 
+    font-weight: bold;
+    color: black; 
+}
+
+.date {
+    margin-left: -2vw;
+    display: flex;
+    align-items: center;
+    gap: 8vw;
+}
+.time{
+    position: relative;
+    background-color: #f0f0f0;
+    width: 50px;
+    height: 44px;
+    border: none;
+    border-radius: 0.5vw;
+}
+
+.contact{
+    margin-left: -2vw;
+    margin-top: 1.5vw;
+    display: flex;
+    align-items: center;
+    gap: 8vw;
+}
+
+.inputone{
+    position: relative;
+    background-color: #ffffff;
+    width: 264px;
+    height: 42px;
+    border-radius: 0.5vw;
+    border: 1px solid #f0f0f0;
+}
+.support{
+    margin-left: -2vw;
+    margin-top: 1.5vw;
+}
+.support p{
+    font-size: 0.9vw;
+}
+.connect{
+    margin-left: -2vw;
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw
+}
+.boxcheck{
+    transform: scale(1.2);
+}
+.connect p{
+    font-size: 0.9vw;
+}
+.comment{
+    margin-left: -2vw;
+    margin-top: 2vw;
+}
+.textarea-field {
+    width: 630px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #f0f0f0;
+    border-radius: 0.5vw;
+    resize: none; /* отключить изменение размера */
+}
+.send{
+    margin-left: -2vw;
+    margin-top: 1.8vw;
+}
+.sendbutton{
+    position: relative;
+    background-color: #f8ec91;
+    width: 185px;
+    height: 44px;
+    border: none;
+    border-radius: 0.5vw;
+}
+.sendbutton:hover {
+    background-color: #edd415;
+
+}

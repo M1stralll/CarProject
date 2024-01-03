@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header>
+<div class="logo">
+    <a href="/index.html">
+        <img src="/images/logo.png" alt="Logo">
+    </a>
+
+</div>
+
+<div class="TitleBlock">
+
+<div class="TitleBlock__up">
+    <ul class="hr">
+        <li> <p class="Title__ColorYellow">Минск</p> </li>
+        <li> <a href="https://yandex.by/maps/157/minsk/house/Zk4YcgBkQUQGQFtpfXR1d3hqYw==/?ll=27.474812%2C53.846497&z=16"><p class="Title__ColorWhite">пр. Дзержигского 127</p> </a>  </li>
+        <p class="Title__ColorYellow" onclick="copyPhoneNumber()">+375 29 547-78-18</p>
+    </ul>
+</div>
+<div id="notification" class="notification"></div>
+<div class="TitleBlock__down">
+    <ul class="hr">
+        <li> <a href="javascript:void(0);" onclick="scrollToSection('.CatrgorizeTitle')"><p class="Title__ColorWhite">Категории авто</p> </a></li>
+        <li> <a href="/CarRent/CarRent.html/AllCar.html"><p class="Title__ColorWhite">Все автмообили</p></a> </li>
+        <li> <a href="https://www.youtube.com/watch?v=f9VbU_pCh8w"><p class="Title__ColorWhite">Условие аренды</p></a> </li>
+    </ul>
+</div>
+
+</div>
+
+</header>
+    
+
+<main>
+<div class="WelcomMenu">
+    
+    <img src="/images/MainMenu.png" alt="PictureMainMenuCar">
+    <div class="WelcomMenuWord">
+    <h3 class="WelcomMenUWord_title">
+        WestMotors
+    </h3>
+    <p class="WelcomMenuWord__text">
+        Все автмообили. Все условияю. Все для вас.
+    </p>
+</div>
+</div>
+<div class="Categorize">
+<h1 class="CatrgorizeTitle">
+    Выберите категорию
+</h1>
+<div class="Categorize__ContainerFirstLine">
+<a href="/CarRent/CarRent.html/Econom.html"></a>
+<div class="Container__Econom">
+    <img src="/images/Econom.png" alt="EconomCar" class="CategorizeImg">
+    <p class="Categorize__Car">Эконом</p>
+    <p class="Categorize__Price">от 100 BYN</p>
+</div>
+</a>
+<div class="Container__Srednii">
+    <img src="/images/Srednii.png" alt="SredniiCar" class="CategorizeImg">
+    <p class="Categorize__Car">Комфорт</p>
+    <p class="Categorize__Price">от 170 BYN</p>
+</div>
+<div class="Container__Komfort">
+    <img src="/images/Komfort.png" alt="KomfortCar" class="CategorizeImg">
+    <p class="Categorize__Car">Комфорт +</p>
+    <p class="Categorize__Price">от 200 BYN</p>
+</div>
+<div class="Container__Business">
+    <img src="/images/Business.png" alt="BusinessCar" class="CategorizeImg">
+    <p class="Categorize__Car">Бизнес</p>
+    <p class="Categorize__Price">от 300 BYN</p>
+</div>
+
+</div>
+
+<div class="Categorize__ContainerSecondLine">
+
+    <div class="Container__Premium">
+        <img src="/images/Premium.png" alt="PremiumCar" class="CategorizeImg">
+        <p class="Categorize__Car">Премиум</p>
+        <p class="Categorize__Price">от 400 BYN</p>
+    </div>
+    <div class="Container__Kabriolet">
+        <img src="/images/Kabriolet.png" alt="KabrioletCar" class="CategorizeImg">
+        <p class="Categorize__Car">Кабриолет</p>
+        <p class="Categorize__Price">от 200 BYN</p> 
+    </div>
+    <div class="Container__Dzhipy">
+        <img src="/images/Dzhipy.png" alt="DzhipyCar" class="CategorizeImg">
+        <p class="Categorize__Car">Внедородники</p>
+        <p class="Categorize__Price">от 170 BYN</p>
+    </div>
+    <div class="Container__Mikroavtobus">
+        <img src="/images/Mikroavtobus.png" alt="MikroavtobusCar" class="CategorizeImg">
+        <p class="Categorize__Car">Микроавтобусы</p>
+        <p class="Categorize__Price">от 150 BYN</p>
+    </div>
+
+</div>
+<div class="Categorize__ContainerThirdLine">
+    <div class="Container__Avtodom">
+        <img src="/images/Avtodom.png" alt="AvtodomCar" class="CategorizeImg">
+        <p class="Categorize__Car">Дом на колесах</p>
+        <p class="Categorize__Price">от 300 BYN</p>
+    </div>
+    <div class="Container__Miniven">
+        <img src="/images/Miniven.png" alt="MinivenCar" class="CategorizeImg">
+        <p class="Categorize__Car">Минивены</p>
+        <p class="Categorize__Price">от 170 BYN</p> 
+    </div>
+    <div class="Container__Elektro">
+        <img src="/images/Elektro.png" alt="ElektroCar" class="CategorizeImg">
+        <p class="Categorize__Car">Электрокары</p>
+        <p class="Categorize__Price">от 300 BYN</p>
+    </div>
+    <div class="Container__Gruzovye">
+        <img src="/images/Gruzovye.png" alt="GruzovyeCar" class="CategorizeImg">
+        <p class="Categorize__Car">Грузовой</p>
+        <p class="Categorize__Price">от 400 BYN</p>
+    </div>
+    
+</div>
+</div>
+<div class="SelectBrand">
+<div class="PopularBrandCarTitle">
+<div class="PopularBrandCar__Text"><h1>Популярные бренды</h15></div>
+<div class="PopularBrandCar__Arrows">
+    <div class="Left"  name="input"></div>
+    <div class="Right"  name="input"></div>
+
+</div>
+
+    
+</div>
+<div class="PopularBrandCar">
+<div class="PopularBrandCar__Container">
+<div class="Container__BMW">
+    <img src="/images/BMW.png" alt="BMW" class="PopularBrandCarPicture">
+        <p class="PopularBrand__Text">BMW</p>
+
+</div>
+<div class="Container__Mercedes-benz">
+    <img src="/images/Mercedes-benz.png" alt="Mercedes-benz" class="PopularBrandCarPicture">
+        <p class="PopularBrand__Text">Mercedes-benz</p>
+</div>
+<div class="Container__Audi">
+    <img src="/images/Audi.png" alt="Audi" class="PopularBrandCarPicture">
+        <p class="PopularBrand__Text">Audi</p>
+</div>
+<div class="Container__Porsche">
+    <img src="/images/Porsche.png" alt="Porsche" class="PopularBrandCarPicture">
+        <p class="PopularBrand__Text">Porsche</p>
+</div>
+<div class="Container__Ford">
+    <img src="/images/Ford.png" alt="Ford" class="PopularBrandCarPicture">
+        <p class="PopularBrand__Text">Ford</p>
+</div>
+<div class="Container__Skoda">
+    <img src="/images/Skoda.png" alt="Skoda" class="PopularBrandCarPicture">
+        <p class="PopularBrand__Text">Skoda</p>
+</div>
+<div class="Container__Volkswagen">
+    <img src="/images/Volkswagen.png" alt="Volkswagen" class="PopularBrandCarPicture">
+    <p class="PopularBrand__Text">Volkswagen</p>
+</div>
+<div class="Container__Toyota">
+    <img src="/images/Toyota.png" alt="Toyota" class="PopularBrandCarPicture">
+    <p class="PopularBrand__Text">Toyota</p>
+</div>
+<div class="Container__Tesla">
+    <img src="/images/Tesla.png" alt="Tesla" class="PopularBrandCarPicture">
+    <p class="PopularBrand__Text">Tesla</p>
+</div>
+<div class="Container__Renault">
+    <img src="/images/Renault.png" alt="Renault" class="PopularBrandCarPicture">
+    <p class="PopularBrand__Text">Renault</p>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="Recommendations">
+
+<div class="Recommendations__Title">
+    <h1>
+     Специальные предложения
+    </h1>
+</div>
+
+
+    <div class="BlockAuto__BackgroundFirsAuto">
+
+        <div class="BlockAuto__BackgroundBMW">
+        
+            <div class="BackgroundBMW_Car">
+            
+                <img src="/images/Recommendations_BMW_520d.jpeg" alt="BMW_520d" class="BackgroundCar">
+            
+            </div>
+            <div class="BackgroundBMW__Text">
+
+                <div class="Text__Discound">
+                    <p>Декабрьский ценопад – 30%  </p>
+                </div>
+                <div class="Text__NameCar">
+                    <p>BMW 520d</p>
+                    <p class="TransparentGray">G30 restyling 4WD xDrive</p>
+                </div>
+                <div class="Text__CrossPrice">
+                    <p> от 600 BYN</p>
+                </div>
+                <div class="Text__Price">
+                    <p> от 420  
+                        <p class="Price__BYN">
+                            Byn 
+                            <p class="Price__Day">
+                                /cутки
+                            </p>
+                        </p>
+                    </p>
+                </div>
+                <a href="/MoreDetailCar/html__MoreDetailsCar/BMW520D.html">
+                <div class="Text__LinkMoreDetails">
+                    <p>
+                        подробнее
+                    </p>
+
+                </div>
+              </a>
+                
+            </div>
+            
+        </div>
+
+        
+
+
+    </div>
+
+    <div class="BlockAuto__BackgroundFirsAuto">
+
+        <div class="BlockAuto__BackgroundBMW">
+        
+            <div class="BackgroundBMW_Car">
+            
+                <img src="/images/Recommendations_BMW_320d.jpg" alt="BMW_520d" class="BackgroundCar">
+            
+            </div>
+            <div class="BackgroundBMW__Text">
+
+                <div class="Text__Discound">
+                    <p>Новинка – 10%  </p>
+                </div>
+                <div class="Text__NameCar">
+                    <p>BMW 320d</p>
+                    <p class="TransparentGray">G20 M-sport</p>
+                </div>
+                <div class="Text__CrossPrice">
+                    <p> от 290 BYN</p>
+                </div>
+                <div class="Text__Price">
+                    <p> от 264  
+                        <p class="Price__BYN">
+                            Byn 
+                            <p class="Price__Day">
+                                /cутки
+                            </p>
+                        </p>
+                    </p>
+                </div>
+                <a href="/MoreDetailCar/html__MoreDetailsCar/BMW320D.html">
+                    <div class="Text__LinkMoreDetails">
+                        <p>
+                            подробнее
+                        </p>
+                        
+                    </div>
+                </a>
+                
+                
+            </div>
+            
+        </div>
+
+        
+
+
+    </div>
+
+    <div class="BlockAuto__BackgroundFirsAuto">
+
+        <div class="BlockAuto__BackgroundBMW">
+        
+            <div class="BackgroundBMW_Car">
+            
+                <img src="/images/Recommendation_BMW_X4.jpeg" alt="BMW_520d" class="BackgroundCar">
+            
+            </div>
+            <div class="BackgroundBMW__Text">
+
+                <div class="Text__Discound">
+                    <p>Новинка – 10%  </p>
+                </div>
+                <div class="Text__NameCar">
+                    <p>BMW x4</p>
+                    <p class="TransparentGray">G02 xDrive20d M-sport</p>
+                </div>
+                <div class="Text__CrossPrice">
+                    <p> от 429 BYN</p>
+                </div>
+                <div class="Text__Price">
+                    <p> от 390  
+                        <p class="Price__BYN">
+                            Byn 
+                            <p class="Price__Day">
+                                /cутки
+                            </p>
+                        </p>
+                    </p>
+                </div>
+                <div class="Text__LinkMoreDetails">
+                    <p>
+                        подробнее
+                    </p>
+
+                </div>
+                
+                
+            </div>
+            
+        </div>
+
+        
+
+
+    </div>
+
+    <div class="BlockAuto__BackgroundFirsAuto">
+
+        <div class="BlockAuto__BackgroundBMW">
+        
+            <div class="BackgroundBMW_Car">
+            
+                <img src="/images/Recommendations_mazda3.jpeg" alt="BMW_520d" class="BackgroundCar">
+            
+            </div>
+            <div class="BackgroundBMW__Text">
+
+                <div class="Text__Discound">
+                    <p>Новинка –  10%  </p>
+                </div>
+                <div class="Text__NameCar">
+                    <p>Mazda 3</p>
+                    <p class="TransparentGray">Mazda 3</p>
+                </div>
+                <div class="Text__CrossPrice">
+                    <p> от 166 BYN</p>
+                </div>
+                <div class="Text__Price">
+                    <p> от 151 
+                        <p class="Price__BYN">
+                            Byn 
+                            <p class="Price__Day">
+                                /cутки
+                            </p>
+                        </p>
+                    </p>
+                </div>
+                <div class="Text__LinkMoreDetails">
+                    <p>
+                        подробнее
+                    </p>
+
+                </div>
+                
+                
+            </div>
+            
+        </div>
+
+        
+
+
+    </div>
+
+    <div class="BlockAuto__BackgroundFirsAuto">
+
+        <div class="BlockAuto__BackgroundBMW">
+        
+            <div class="BackgroundBMW_Car">
+            
+                <img src="/images/Recommendations_kia_k5.jpeg" alt="BMW_520d" class="BackgroundCar">
+            
+            </div>
+            <div class="BackgroundBMW__Text">
+
+                <div class="Text__Discound">
+                    <p>Новинка –  10%  </p>
+                </div>
+                <div class="Text__NameCar">
+                    <p>KIA K5</p>
+                    <p class="TransparentGray">Luxe</p>
+                </div>
+                <div class="Text__CrossPrice">
+                    <p> от 166 BYN</p>
+                </div>
+                <div class="Text__Price">
+                    <p> от 151 
+                        <p class="Price__BYN">
+                            Byn 
+                            <p class="Price__Day">
+                                /cутки
+                            </p>
+                        </p>
+                    </p>
+                </div>
+                <div class="Text__LinkMoreDetails">
+                    <p>
+                        подробнее
+                    </p>
+
+                </div>
+                
+                
+            </div>
+            
+        </div>
+
+        
+
+
+    </div>
+
+    <div class="BlockAuto__BackgroundFirsAuto">
+
+        <div class="BlockAuto__BackgroundBMW">
+        
+            <div class="BackgroundBMW_Car">
+            
+                <img src="/images/Recommendations_Land_Rover_Range_Rover_Evoque.jpg" alt="BMW_520d" class="BackgroundCar">
+            
+            </div>
+            <div class="BackgroundBMW__Text">
+
+                <div class="Text__Discound">
+                    <p>Декабрьский ценопад – 30%</p>
+                </div>
+                <div class="Text__NameCar">
+                    <p>Range Rover Evoque</p>
+                    <p class="TransparentGray">R-Dynamic S</p>
+                </div>
+                <div class="Text__CrossPrice">
+                    <p> от 567 BYN</p>
+                </div>
+                <div class="Text__Price">
+                    <p> от 397
+                        <p class="Price__BYN">
+                            Byn 
+                            <p class="Price__Day">
+                                /cутки
+                            </p>
+                        </p>
+                    </p>
+                </div>
+                <div class="Text__LinkMoreDetails">
+                    <p>
+                        подробнее
+                    </p>
+
+                </div>
+                
+                
+            </div>
+            
+        </div>
+
+        
+
+
+    </div>
+
+    <div class="BlockAuto__BackgroundFirsAuto">
+
+        <div class="BlockAuto__BackgroundBMW">
+        
+            <div class="BackgroundBMW_Car">
+            
+                <img src="/images/Recommendations_BMW_X7.jpeg" alt="BMW_520d" class="BackgroundCar">
+            
+            </div>
+            <div class="BackgroundBMW__Text">
+
+                <div class="Text__Discound">
+                    <p>Декабрьский ценопад – 30%</p>
+                </div>
+                <div class="Text__NameCar">
+                    <p>BMW X7</p>
+                    <p class="TransparentGray">xDrive 40i M Sport Pro</p>
+                </div>
+                <div class="Text__CrossPrice">
+                    <p> от 1186 BYN</p>
+                </div>
+                <div class="Text__Price">
+                    <p> от 913
+                        <p class="Price__BYN">
+                            Byn 
+                            <p class="Price__Day">
+                                /cутки
+                            </p>
+                        </p>
+                    </p>
+                </div>
+                <div class="Text__LinkMoreDetails">
+                    <p>
+                        подробнее
+                    </p>
+
+                </div>
+                
+                
+            </div>
+            
+        </div>
+
+        
+
+
+    </div>
+
+    <div class="BlockAuto__BackgroundFirsAuto">
+
+        <div class="BlockAuto__BackgroundBMW">
+        
+            <div class="BackgroundBMW_Car">
+            
+                <img src="/images/Recommendations_mb_gls.jpeg" alt="BMW_520d" class="BackgroundCar">
+            
+            </div>
+            <div class="BackgroundBMW__Text">
+
+                <div class="Text__Discound">
+                    <p>Только сегодня – 20%</p>
+                </div>
+                <div class="Text__NameCar">
+                    <p>Mercedes Benz GLS</p>
+                    <p class="TransparentGray">AMG 400d 4MATIC Luxury</p>
+                </div>
+                <div class="Text__CrossPrice">
+                    <p> от 1524 BYN</p>
+                </div>
+                <div class="Text__Price">
+                    <p> от 1219
+                        <p class="Price__BYN">
+                            Byn 
+                            <p class="Price__Day">
+                                /cутки
+                            </p>
+                        </p>
+                    </p>
+                </div>
+                <div class="Text__LinkMoreDetails">
+                    <p>
+                        подробнее
+                    </p>
+
+                </div>
+                
+                
+            </div>
+            
+        </div>
+
+        
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+</main>
+
+
+<footer class="footer">
+    
+    <div class="footer__Information">
+
+        <div class="Information__RentCar">
+            <p>
+               Аренда авто</a>
+            </p>
+            <div class="Description">
+                <a href="https://www.youtube.com/watch?v=f9VbU_pCh8w">
+                <p class="Blackout">С выездом за границу</p>
+                <p class="Blackout">Аренда в аэропорту</p>
+                <p class="Blackout">Для Юридических лиц</p>
+                <p class="Blackout">Долгосрочная аренда</p>
+                <p class="Blackout">Трансфер в аэропорт</p>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="Information__Help">
+            <p>
+                Помощь
+            </p>
+            <div class="Description">
+                <a href="https://www.youtube.com/watch?v=f9VbU_pCh8w">
+                <p class="Blackout">Условия аренды</p>
+                <p class="Blackout">Доставка и возврат</p>
+                <p class="Blackout">Способы оплаты</p>
+                <p class="Blackout">Сдать авто</p>
+                <p class="Blackout">FaQ</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="Information__Company">
+            <p>
+                Компания
+            </p>
+            <div class="Description">
+                <a href="https://www.youtube.com/watch?v=f9VbU_pCh8w">
+                <p class="Blackout">О нас</p>
+                <p class="Blackout">Новости</p>
+                <p class="Blackout">Партнеры</p>
+                <p class="Blackout">Фотогалерея</p>
+                <p class="Blackout">Отзывы</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="Information__Contacts">
+            <p>
+                Контакты
+            </p>
+            <div class="Description__Contacts">
+                <p class="Contacts__LitleText">
+                    Прием заказов 24/7
+                </p>
+                <p class="Contacts__BigText">
+                    +375 29 547-78-18
+                </p>
+                <div class="https://web.telegram.org/a/">
+                    <a href="ссылка_на_tg">
+                        <img src="/images/tg.svg" alt="Contacts__Photo-tg">
+                    </a>
+                
+                    <a href="https://www.youtube.com/watch?v=f9VbU_pCh8w">
+                        <img src="/images/whatsapp.svg" alt="Contacts__Photo-whatsapp">
+                    </a>
+                
+                    <a href="https://www.youtube.com/watch?v=f9VbU_pCh8w">
+                        <img src="/images/viber.svg" alt="Contacts__Photo-viber">
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="Information__Address">
+            <p>
+                Адрес
+            </p>
+            <div class="Description__Address"></div>
+            <p class="Contacts__LitleText">
+                Главный офис | 9:00 - 21:00
+
+            </p>
+            <p class="Contacts__BigText">
+                г.Минск
+            </p>
+            <p class="Contacts__BigText">
+                пр.Дзержигского 127
+            </p>
+         </div>
+       </div>
+
+    </div>
+
+    <div class="footer_Line">
+
+    </div>
+
+    <div class="footer__Pay">
+        <img src="/images/Pay.png" alt="Pay">
+    </div>
+
+    <div class="footer_Important">
+
+    </div>
+
+</footer>
+
+<script src="/javascript/main.js"></script> 
+</body>
+</html>
