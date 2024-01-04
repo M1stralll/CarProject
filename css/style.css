@@ -1002,6 +1002,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   gap: 8vw;
+  margin-left: 8.7vw;
 }
 
 .Information__RentCar {
