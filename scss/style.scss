@@ -15,8 +15,8 @@
  
 @mixin ContainerCategorize(){
     background-color: #ffffff;
-    width: 306px;
-    height: 197px;
+    width: 21.25vw;
+    height: 13.7vw;
     border-radius: 1vw;
     .CategorizeImg{
         width: 19vw;
@@ -469,7 +469,7 @@ z-index: -1;
     width: 100vw;
     height: 38vw;
     bottom: 0;
-    margin-top: 25px;
+    margin-top: 2vw;
 }
 
 .footer__Information{
@@ -477,6 +477,7 @@ z-index: -1;
     display: flex;
     align-items: center;
     gap: 8vw;
+    justify-content: center;
 }
 
 .Information__RentCar{
@@ -554,5 +555,9 @@ z-index: -1;
 }
 
 .Title__ColorWhite{
+    color: #ffffff;
+}
+
+.footer_TitleInformation{
     color: #ffffff;
 }

@@ -103,8 +103,8 @@ header {
 
 .Container__Econom {
   background-color: #ffffff;
-  width: 306px;
-  height: 197px;
+  width: 21.25vw;
+  height: 13.7vw;
   border-radius: 1vw;
 }
 .Container__Econom .CategorizeImg {
@@ -138,8 +138,8 @@ header {
 
 .Container__Srednii {
   background-color: #ffffff;
-  width: 306px;
-  height: 197px;
+  width: 21.25vw;
+  height: 13.7vw;
   border-radius: 1vw;
 }
 .Container__Srednii .CategorizeImg {
@@ -173,8 +173,8 @@ header {
 
 .Container__Komfort {
   background-color: #ffffff;
-  width: 306px;
-  height: 197px;
+  width: 21.25vw;
+  height: 13.7vw;
   border-radius: 1vw;
 }
 .Container__Komfort .CategorizeImg {
@@ -208,8 +208,8 @@ header {
 
 .Container__Business {
   background-color: #ffffff;
-  width: 306px;
-  height: 197px;
+  width: 21.25vw;
+  height: 13.7vw;
   border-radius: 1vw;
 }
 .Container__Business .CategorizeImg {
@@ -257,8 +257,8 @@ header {
 
 .Container__Premium {
   background-color: #ffffff;
-  width: 306px;
-  height: 197px;
+  width: 21.25vw;
+  height: 13.7vw;
   border-radius: 1vw;
 }
 .Container__Premium .CategorizeImg {
@@ -292,8 +292,8 @@ header {
 
 .Container__Kabriolet {
   background-color: #ffffff;
-  width: 306px;
-  height: 197px;
+  width: 21.25vw;
+  height: 13.7vw;
   border-radius: 1vw;
 }
 .Container__Kabriolet .CategorizeImg {
@@ -327,8 +327,8 @@ header {
 
 .Container__Dzhipy {
   background-color: #ffffff;
-  width: 306px;
-  height: 197px;
+  width: 21.25vw;
+  height: 13.7vw;
   border-radius: 1vw;
 }
 .Container__Dzhipy .CategorizeImg {
@@ -362,8 +362,8 @@ header {
 
 .Container__Mikroavtobus {
   background-color: #ffffff;
-  width: 306px;
-  height: 197px;
+  width: 21.25vw;
+  height: 13.7vw;
   border-radius: 1vw;
 }
 .Container__Mikroavtobus .CategorizeImg {
@@ -411,8 +411,8 @@ header {
 
 .Container__Avtodom {
   background-color: #ffffff;
-  width: 306px;
-  height: 197px;
+  width: 21.25vw;
+  height: 13.7vw;
   border-radius: 1vw;
 }
 .Container__Avtodom .CategorizeImg {
@@ -446,8 +446,8 @@ header {
 
 .Container__Miniven {
   background-color: #ffffff;
-  width: 306px;
-  height: 197px;
+  width: 21.25vw;
+  height: 13.7vw;
   border-radius: 1vw;
 }
 .Container__Miniven .CategorizeImg {
@@ -481,8 +481,8 @@ header {
 
 .Container__Elektro {
   background-color: #ffffff;
-  width: 306px;
-  height: 197px;
+  width: 21.25vw;
+  height: 13.7vw;
   border-radius: 1vw;
 }
 .Container__Elektro .CategorizeImg {
@@ -516,8 +516,8 @@ header {
 
 .Container__Gruzovye {
   background-color: #ffffff;
-  width: 306px;
-  height: 197px;
+  width: 21.25vw;
+  height: 13.7vw;
   border-radius: 1vw;
 }
 .Container__Gruzovye .CategorizeImg {
@@ -990,7 +990,7 @@ header {
   width: 100vw;
   height: 38vw;
   bottom: 0;
-  margin-top: 25px;
+  margin-top: 2vw;
 }
 
 .footer__Information {
@@ -1002,7 +1002,9 @@ header {
       -ms-flex-align: center;
           align-items: center;
   gap: 8vw;
-  margin-left: 8.7vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .Information__RentCar {
@@ -1086,5 +1088,9 @@ header {
 }
 
 .Title__ColorWhite {
+  color: #ffffff;
+}
+
+.footer_TitleInformation {
   color: #ffffff;
 }

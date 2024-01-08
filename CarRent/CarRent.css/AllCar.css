@@ -444,3 +444,39 @@ body {
   margin-right: 10vw;
   margin-top: 3vw;
 }
+
+.Car__LineThird {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 3vw;
+}
+
+.Car__LineFourth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 3vw;
+}
+
+.Car__LineFifth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 3vw;
+}
