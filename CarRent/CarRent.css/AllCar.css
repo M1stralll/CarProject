@@ -480,3 +480,15 @@ body {
   margin-right: 10vw;
   margin-top: 3vw;
 }
+
+.Car__LineSix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 3vw;
+}
