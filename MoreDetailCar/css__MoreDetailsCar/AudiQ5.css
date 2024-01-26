@@ -2,6 +2,7 @@
 * p {
   font-family: "Lato", sans-serif;
   color: #000;
+  font-size: 1vw;
 }
 
 * h1 {
@@ -471,9 +472,19 @@ body {
   left: 0;
   top: 0;
   z-index: 20;
-  background-color: rgba(0, 0, 0, 0.7);
   display: none;
   overflow-y: auto;
+}
+
+.Information__MorePhoto::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
 }
 
 .MorePhoto__body img {
@@ -632,8 +643,8 @@ body {
   margin-bottom: 50vw;
   position: relative;
   z-index: 2;
-  width: 592px;
-  height: 526px;
+  width: 42vw;
+  height: 35vw;
   border-radius: 10px;
   -webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
           box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
@@ -642,6 +653,11 @@ body {
   margin-top: 10vw;
 }
 
+@media (max-width: 787px) and (max-height: 863px) {
+  .modal__window {
+    margin-top: 30vw;
+  }
+}
 .closeModal {
   position: absolute;
   right: 40px;
